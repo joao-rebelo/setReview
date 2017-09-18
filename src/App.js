@@ -3,7 +3,7 @@ import SetCombo from './components/SetCombo.js';
 import MtgSet from './model/MtgSet.js';
 import MtgCard from './model/MtgCard.js';
 import mtg from 'mtgsdk';
-import CardLayout from "./components/CardLayout";
+import SetFilters from "./components/SetFilters";
 
 class App extends Component {
 
@@ -45,7 +45,7 @@ class App extends Component {
     render() {
         var numberFetchedCards = this.state.fetchedCards.length;
         var numberCards = numberFetchedCards > 0 ? <p>Fetched {numberFetchedCards} cards!</p> : <p></p>;
-        var cardA = numberFetchedCards > 0 ? <CardLayout mtgCards={this.state.fetchedCards}/> : <p></p>;
+        var cardA = numberFetchedCards > 0 ? <SetFilters mtgCards={this.state.fetchedCards}/> : <p></p>;
 
         return (
             <div>

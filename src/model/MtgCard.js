@@ -13,9 +13,9 @@ class MtgCard {
         this.mtgSet = mtgSet;
         this.imageUrl = imageUrl;
         this.colors = colors;
-        this.supertypes = supertypes;
+        this.superTypes = supertypes;
         this.types = types;
-        this.subtypes = subtypes;
+        this.subTypes = subtypes;
         this.cmc = cmc;
         this.rarity = rarity;
         this.setNumber = setNumber;
