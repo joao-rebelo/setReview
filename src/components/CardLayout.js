@@ -2,8 +2,6 @@ import React from "react";
 import CardView from "./CardView";
 
 const columnStyle = {
-    //margin: '40px',
-    //border: '5px solid pink'
     width: "225px",
     float: "left"
 };
