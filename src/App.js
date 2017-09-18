@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
 import SetCombo from './components/SetCombo.js';
-
 import MtgSet from './model/MtgSet.js';
 import MtgCard from './model/MtgCard.js';
 import mtg from 'mtgsdk';
